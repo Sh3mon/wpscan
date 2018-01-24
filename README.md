@@ -1,32 +1,22 @@
-# Bull-Attack
+## WPSeku - Wordpress Security Scanner 
+WPSeku is a black box WordPress vulnerability scanner that can be used to scan remote WordPress installations to find security issues.
 
-Installation Commands....
+![screen_1](https://raw.githubusercontent.com/m4ll0k/WPSeku/master/screen/screen_1.png)
 
-==> apt update
+## Installation
+```
+$ git clone https://github.com/m4ll0k/WPSeku.git wpseku
+$ cd wpseku
+$ pip install -r requirements.txt
+$ python wpseku.py
+```
+## Usage
+`python wpseku.py --target http://site.com --ragent`
 
+![screen_2](https://raw.githubusercontent.com/m4ll0k/WPSeku/master/screen/screen_2.png)
+![screen_3](https://raw.githubusercontent.com/m4ll0k/WPSeku/master/screen/screen_3.png)
 
-==> apt upgrade
+## Credits and Contributors
+Original idea and script from WPScan Team (https://wpscan.org/)
 
-
-==> apt install python
-
-
-==> apt install python2
-
-
-==> apt install git
-
-
-==> cd $HOME
-
-
-==> git clone https://github.com/Sh3mon/SH-Emon
-
-
-==> cd SH-Emon 
-
-
-==> chmod +x Bull-attack.py
-
-
-==> python2 Bull-attack.py
+WPScan Vulnerability Database (https://wpvulndb.com/api) 
