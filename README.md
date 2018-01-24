@@ -23,10 +23,10 @@ Installation Step....
 ==> git clone https://github.com/Sh3mon/SH-Emon
 
 
-==> cd Bull-Attack
+==> cd SH-Emon 
 
 
-==> chmod +x B-attack.py
+==> chmod +x B-attack.Py
 
 
-==> python2 B-attack.py
+==> python2 B-attack.Py
