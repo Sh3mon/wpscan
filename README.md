@@ -20,7 +20,7 @@ Installation Step....
 ==> cd $HOME
 
 
-==> git clone https://github.com/Bhai4You/Bull-Attack
+==> git clone https://github.com/Sh3mon/SH-Emon
 
 
 ==> cd Bull-Attack
