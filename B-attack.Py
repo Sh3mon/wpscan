@@ -111,4 +111,7 @@ print "\nAS NUMBER/NAME                 \033[32m\033[1m%s\033[0m" %data["as"]
             
 
 print "\n\n\n\n\033[1m\033[32m<=======[ \033[33m\033[1m\033[33m:.Modified By \033[1m\033[31m:\033[33m H45HC0D3.:\033[32m ]=======>\n\n\033[0m"
+
+print "\n\n\n\n\033[1m\033[32m<=======[ \033[33m\033[1m\033[33m:.Copyright (c) 2017, Sutariya Parixit
+                          \033[1m\033[31m:\033[33m   All rights reserved..:\033[32m ]=======>\n\n\033[0m"
 os.system('rm *.json')
