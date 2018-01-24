@@ -26,7 +26,7 @@ Installation Commands....
 ==> cd SH-Emon 
 
 
-==> chmod +x B-attack.Py
+==> chmod +x Bull-attack.py
 
 
-==> python2 B-attack.Py
+==> python2 Bull-attack.py
