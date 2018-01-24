@@ -48,7 +48,8 @@ print("""\n\n\n\t\033[33m\033[1m   <===[\033[32m:.Commands.:\033[33m]===>\033[0m
 \n\n\033[1m\033[32mtype : 1 or 2
        \033[0m""")
 def help():
-	print("""\n\n  Commands :
+	print("""\n\n
+  Commands :
        \n\n1. web     : Website Location Hacker
        \n2. exit        : Exit Bull Attack
 
@@ -79,7 +80,7 @@ urllib.urlretrieve("http://ip-api.com/json/%s" %IP, 'data.json')
 file = open('data.json')
 data = json.load(file)
 if data["status"] != "success": 
-  	print "\nHey Vai Sorry!!!  -Please Enter Correct Details...\n\n\033[1m\033[33m     [*] I Am Proud To Be An \033[1m\033[31mIn\033[1m\033[0mdi\033[1m\033[32man\033[33m [*]\n\n\t Advice For \033[1m\033[31mIn\033[1m\033[0mdi\033[1m\033[32man\033[1m\033[33m People \n\n\n\033[1m\033[32m[\033[33m==>\033[32m  Bhai True Website or IP Enter Karo...!!!\033[33m <===\033[32m]\033[0m\n\n"
+  	print "\nHey Vai Sorry!!!  -Please Enter Correct Details...\n\n\033[1m\033[33m     [*] I Am Proud To Be An \033[1m\033[31mIn\033[1m\033[0mdi\033[1m\033[32man\033[33m [*]\n\n\t In 1971 \033[1m\033[31mIn\033[1m\033[0mdi\033[1m\033[32man\033[1m\033[33mto help the Liberation War.   \n\n\n\033[1m\033[32m[\033[33m==>\033[32m  Bhai True Website or IP Enter Karo...!!!\033[33m <===\033[32m]\033[0m\n\n"
   	exit()
 
 
@@ -105,4 +106,9 @@ print "\nCOUNTRY                        \033[32m\033[1m%s,\033[0m" %data["countr
 print "\nCOUNTRY CODE                   \033[32m\033[1m%s,\033[0m" %data["countryCode"]
 print "\nZIP CODE                       \033[32m\033[1m%s\033[0m" %data["zip"]
 print "\nLATITUDE                       \033[32m\033[1m%s\033[0m" %data["lat"]
-print "\nLONGITUDE                      \033[32m\033[1m%s\033[0m" %da
+print "\nLONGITUDE                      \033[32m\033[1m%s\033[0m" %data["lon"]
+print "\nAS NUMBER/NAME                 \033[32m\033[1m%s\033[0m" %data["as"]
+            
+
+print "\n\n\n\n\033[1m\033[32m<=======[ \033[33m\033[1m\033[33m:.Modified By \033[1m\033[31m:\033[33m H45HC0D3.:\033[32m ]=======>\n\n\033[0m"
+os.system('rm *.json')
