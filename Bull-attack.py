@@ -108,10 +108,7 @@ print "\nZIP CODE                       \033[32m\033[1m%s\033[0m" %data["zip"]
 print "\nLATITUDE                       \033[32m\033[1m%s\033[0m" %data["lat"]
 print "\nLONGITUDE                      \033[32m\033[1m%s\033[0m" %data["lon"]
 print "\nAS NUMBER/NAME                 \033[32m\033[1m%s\033[0m" %data["as"]
-     #single target and google maps only allowed
-    if(args.tlist and args.g):
-        logger.PrintError("Google maps location is working only with single targets.", args.nolog)
-        sys.exit(5)       
+      
 
 print "\n\n\n\n\033[1m\033[32m<=======[ \033[33m\033[1m\033[33m:.Modified By \033[1m\033[31m:\033[33m H45HC0D3.:\033[32m ]=======>\n\n\033[0m"
 
