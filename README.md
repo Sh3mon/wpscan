@@ -1,7 +1,7 @@
 ## WPscan - Wordpress Security Scanner 
 apt update && apt upgrade -y
 
-git clone https://github.com/sh3mon/WPscan
+git clone https://github.com/sh3mon/wpscan
 
 cd Wpscan
 
