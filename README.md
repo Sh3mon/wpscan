@@ -1,6 +1,6 @@
 # Bull-Attack
 
-Installation Step....
+Installation Commands....
 
 ==> apt update
 
