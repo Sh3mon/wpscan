@@ -80,7 +80,7 @@ urllib.urlretrieve("http://ip-api.com/json/%s" %IP, 'data.json')
 file = open('data.json')
 data = json.load(file)
 if data["status"] != "success": 
-  	print "\nHey Vai Sorry!!!  -Please Enter Correct Details...\n\n\033[1m\033[33m     [*] I Am Proud To Be An \033[1m\033[31mIn\033[1m\033[0mdi\033[1m\033[32man\033[33m [*]\n\n\t In 1971 \033[1m\033[31mIn\033[1m\033[0mdi\033[1m\033[32man\033[1m\033[33mto help the Liberation War.   \n\n\n\033[1m\033[32m[\033[33m==>\033[32m  Bhai True Website or IP Enter Karo...!!!\033[33m <===\033[32m]\033[0m\n\n"
+  	print "\nHey Vai Sorry!!!  -Please Enter Correct Details...\n\n\033[1m\033[33m     [*] I Am Proud To Be An \033[1m\033[31mIn\033[1m\033[0mdi\033[1m\033[32man\033[33m [*]\n\n\t In 1971 \033[1m\033[31mto\033[1m\033[0mhhelp\033[1m\033[32mt32mthe\033[1m\033[33m  Liberation War.   \n\n\n\033[1m\033[32m[\033[33m==>\033[32m  Bhai True Website or IP Enter Karo...!!!\033[33m <===\033[32m]\033[0m\n\n"
   	exit()
 
 
