@@ -35,7 +35,7 @@ def logo():
 \t \033[1m\033[33m[-] \033[0mName     : \033[33mBull Attack
 \t \033[1m\033[33m[-] \033[0mSite     : \033[33mwww.trickcyber.com
 \t \033[1m\033[33m[-] \033[0mModified by :\033[1m \033[33m[  \033[32mSH Emon \033[33m ]
-\t \033[1m\033[33m[-] \033[0mSec.Code : \033[33m8h4i\033[0m
+\t \033[1m\033[33m[-] \033[0mSec.Code : \033[33mH45H C0D3 \033[0m
   """)
 
 
