@@ -67,7 +67,7 @@ if bull == "help":
             help()
 
 elif bull == '1':
-	print "\n\n\t\033[33m\033[1m <===[\033[32m:.Website or IP Hacker.:\033[33m]===>\033[0m\n\n\neg. Target\n\n\033[1m\033[33mWebsite\033[0m : www.bhai4you.net\n\n\033[1m\033[33mIp\033[0m      : 74.125.130.121"
+	print "\n\n\t\033[33m\033[1m <===[\033[32m:.Website or IP Hacker.:\033[33m]===>\033[0m\n\n\neg. Target\n\n\033[1m\033[33mWebsite\033[0m : www.trickcyber.com\n\n\033[1m\033[33mIp\033[0m      : 74.125.130.121"
 IP = raw_input("\n\n[*] Website or IP \033[1m\033[33m===>\033[0m")
 print "\nHacking\033[1m\033[33m ===> %s" % (IP)
 IP2 = IP.split(".")
