@@ -26,7 +26,7 @@ Installation Step....
 ==> cd Bull-Attack
 
 
-==> chmod +x B-attack.py
+==> chmod +x Bull-attack.py
 
 
 ==> python2 B-attack.py
